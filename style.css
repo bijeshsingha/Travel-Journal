@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Inter,sans-serif;
+    min-width: 548px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    background: #F55A5A;
+    height: 55px;
+}
+
+.header-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+
+.cards-section{
+    
+    margin: 40px;
+    margin-top: 25px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0; 
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card-img {
+    object-fit: cover;
+    width:125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.location-detail{
+    display: flex;
+    padding: 20px;
+}
+
+.location {
+    padding-top: -1px;
+    padding-left: 3px;
+    font-size: 10px;
+    letter-spacing: 0.17em;
+}
+
+.map-link:link, .map-link:visited {
+    padding-left: 8px;
+    font-size: 10.3px;
+    color: #918E9B;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.map-link:link:active, .map-link:visited:active {
+    color: #918E9B;
+}
+
+.text-content {
+    margin-top: -33px;
+    margin-left: 20px;
+    min-width: 300px; 
+}
+
+.title {
+    font-size: 25px;
+}
+
+.dates {
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.desc {
+    padding-right: 6px;
+    margin-top: -5px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15.4px;
+}
